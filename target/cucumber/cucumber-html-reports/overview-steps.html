@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>06 Aug 2023, 14:56</td>
+      <td>09 Aug 2023, 11:37</td>
     </tr>
   </tbody>
 </table>
@@ -112,30 +112,70 @@ $(document).ready(function() {
 
         <tbody>
             <tr>
-              <td class="location">com.library.steps.Hooks.setUp()</td>
-              <td>1</td>
-              <td class="duration" data-value="1001800">0.001</td>
-              <td class="duration" data-value="1001800">0.001</td>
-              <td class="duration" data-value="1001800">0.001</td>
+              <td class="location">com.library.steps.Hooks.closeDB()</td>
+              <td>2</td>
+              <td class="duration" data-value="2491650">0.002</td>
+              <td class="duration" data-value="2491650">0.002</td>
+              <td class="duration" data-value="4983300">0.004</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
-              <td class="location">com.library.steps.Hooks.tearDown(io.cucumber.java.Scenario)</td>
+              <td class="location">com.library.steps.Hooks.setupDB()</td>
+              <td>2</td>
+              <td class="duration" data-value="400266150">0.400</td>
+              <td class="duration" data-value="400266150">0.592</td>
+              <td class="duration" data-value="800532300">0.800</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.establish_the_database_connection()</td>
+              <td>2</td>
+              <td class="duration" data-value="526000">0.000</td>
+              <td class="duration" data-value="526000">0.001</td>
+              <td class="duration" data-value="1052000">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.execute_query_to_get_all_columns()</td>
               <td>1</td>
-              <td class="duration" data-value="0">0.000</td>
-              <td class="duration" data-value="0">0.000</td>
-              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="171205000">0.171</td>
+              <td class="duration" data-value="171205000">0.171</td>
+              <td class="duration" data-value="171205000">0.171</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.execute_query_to_get_all_i_ds_from_users()</td>
+              <td>1</td>
+              <td class="duration" data-value="41122000">0.041</td>
+              <td class="duration" data-value="41122000">0.041</td>
+              <td class="duration" data-value="41122000">0.041</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.verify_all_users_has_unique_id()</td>
+              <td>1</td>
+              <td class="duration" data-value="20464400">0.020</td>
+              <td class="duration" data-value="20464400">0.020</td>
+              <td class="duration" data-value="20464400">0.020</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.verify_the_below_columns_are_listed_in_result(java.util.List&lt;java.lang.String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="3936300">0.003</td>
+              <td class="duration" data-value="3936300">0.003</td>
+              <td class="duration" data-value="3936300">0.003</td>
               <td class="passed">100.00%</td>
             </tr>
         </tbody>
 
         <tfoot class="total">
           <tr>
-            <td>2</td>
-            <td>2</td>
-            <td class="duration">0.000</td>
-            <td class="duration">0.001</td>
-            <td class="duration">0.001</td>
+            <td>7</td>
+            <td>10</td>
+            <td class="duration">0.104</td>
+            <td class="duration">0.800</td>
+            <td class="duration">1.043</td>
             <td>Totals</td>
           </tr>
         </tfoot>
